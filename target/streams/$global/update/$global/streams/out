@@ -1,26 +1,26 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/youness/Desktop/Code/Scala/Insight/}insight...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: wordcountapp#wordcountapp_2.10;1.0[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/}scalasparkinsight...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: sparkmedian#sparkmedian_2.10;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d26297b[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c68960e[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-core_2.10;1.5.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-core_2.10;1.5.2[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-core_2.10;1.5.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.avro#avro-mapred;1.7.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.avro#avro-mapred;1.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -98,17 +98,17 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-compress;1.4.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.4.1[0m
 [0m[[0mdebug[0m] [0m	found org.apache.commons#commons-compress;1.4.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tukaani#xz;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.tukaani#xz;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.tukaani#xz;1.0[0m
 [0m[[0mdebug[0m] [0m	found org.tukaani#xz;1.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.apache.commons#commons-compress;1.4.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -2463,8 +2463,8 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.uncommons.maths#uncommons-maths;1.2.2a {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a[0m
 [0m[[0mdebug[0m] [0m	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-remote_2.10;2.3.11 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-remote_2.10;2.3.11 [compile->runtime(*)][0m
@@ -2483,8 +2483,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.10;2.3.11 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-slf4j_2.10;2.3.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -2553,11 +2553,12 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scalap;2.10.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
@@ -2572,7 +2573,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->master(compile)][0m
@@ -2754,8 +2754,8 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile][0m
@@ -3089,17 +3089,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -3151,13 +3151,13 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.apache.commons#commons-compress;1.4.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -4549,8 +4549,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-remote_2.10;2.3.11 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [compile->compile(*)][0m
@@ -4585,6 +4585,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
@@ -4596,7 +4597,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -4662,8 +4662,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -5566,8 +5566,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.3.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -5733,18 +5733,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -5796,13 +5796,13 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.apache.commons#commons-compress;1.4.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -7194,8 +7194,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-remote_2.10;2.3.11 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [compile->compile(*)][0m
@@ -7230,6 +7230,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
@@ -7241,7 +7242,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -7307,8 +7307,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -8205,8 +8205,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.3.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -8372,21 +8372,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -8438,13 +8438,13 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.apache.commons#commons-compress;1.4.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -9836,8 +9836,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-remote_2.10;2.3.11 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [compile->compile(*)][0m
@@ -9872,6 +9872,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
@@ -9883,7 +9884,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -9949,8 +9949,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -10847,8 +10847,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.3.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -11014,20 +11014,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -11079,13 +11079,13 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.apache.commons#commons-compress;1.4.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -12477,8 +12477,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-remote_2.10;2.3.11 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [compile->compile(*)][0m
@@ -12513,6 +12513,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
@@ -12524,7 +12525,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -12590,8 +12590,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -13488,8 +13488,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.3.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -13655,20 +13655,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -13720,13 +13720,13 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.4.0.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.velocity#velocity;1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#servlet-api;2.5-20081211 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.apache.commons#commons-compress;1.4.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro;1.7.7->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -15118,8 +15118,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-remote_2.10;2.3.11 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [compile->compile(*)][0m
@@ -15154,6 +15154,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
@@ -15165,7 +15166,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -15231,8 +15231,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -16129,8 +16129,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.3.11->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->com.typesafe.akka#akka-slf4j_2.10;2.3.11 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.3.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -16296,62 +16296,62 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wordcountapp#wordcountapp_2.10;1.0 [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for sparkmedian#sparkmedian_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wordcountapp#wordcountapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies sparkmedian#sparkmedian_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
@@ -16477,19 +16477,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 13047ms :: artifacts dl 324ms[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 compile produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 runtime produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 test produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 provided produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 optional produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 compile-internal produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 runtime-internal produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 test-internal produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 plugin produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 sources produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 docs produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 pom produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for wordcountapp#wordcountapp_2.10;1.0 scala-tool produced in /home/youness/Desktop/Code/Scala/Insight/target/resolution-cache/reports/wordcountapp-wordcountapp_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (13047ms resolve - 324ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5825ms :: artifacts dl 135ms[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 compile produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 runtime produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 test produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 provided produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 optional produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 compile-internal produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 runtime-internal produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 test-internal produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 plugin produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 sources produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 docs produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 pom produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for sparkmedian#sparkmedian_2.10;1.0 scala-tool produced in /home/youness/Desktop/Code/Scala/Insight/ScalaSparkInsight/target/resolution-cache/reports/sparkmedian-sparkmedian_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (5825ms resolve - 135ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

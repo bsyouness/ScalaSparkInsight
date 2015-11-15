@@ -19,7 +19,7 @@ object WordCountApp {
     */
 
     if (args.length != 2) {
-        println("Usage is: wordcount.py <input_path> <output_path>")
+        println("Usage is: wordcount.scala <input_path> <output_path>")
         exit(-1)}
 
     val input_path = args(0)
