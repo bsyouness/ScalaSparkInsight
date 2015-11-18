@@ -24,7 +24,7 @@ To install the dependencies, execute the following commands:
 
 To run the executables on the example data, run `./run.sh`. I am running sbt 0.13.9 on Ubuntu 14.04.3.
 
-The tests are not currently implemented, but you will be able to run the tests, by running `./run_test.sh`.
+The tests are not currently implemented, but once they are, you will be able to run the tests by running `./run_test.sh`.
 
 ## Challenge Summary
 
