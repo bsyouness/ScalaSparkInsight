@@ -13,9 +13,9 @@ To install the dependencies, execute the following commands:
     mkdir ~/bin
     mv spark-1.4.0-bin-hadoop2.6 ~/bin/spark-1.4.0
 
-To run the tests, run `./run_test.sh`.
-
 To run the executables on the example data, run `./run.sh`.
+
+The tests are not currently implemented, but you will be able to run the tests, by running `./run_test.sh`.
 
 ## Challenge Summary
 
