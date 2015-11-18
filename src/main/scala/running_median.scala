@@ -9,20 +9,19 @@ is O(nlog(n)).
 import scala.collection.mutable.PriorityQueue
 
 object RunningMedian {
+  /* This computes the next step in the running median computation. 
+  We assume three invariants:
+  1) The leftHeap's elements are all smaller than or equal to the rightHeap's,
+  2) The numbers of elements in the heaps differ by at most one. We call this "balanced".
+  3) rightHeap contains at least as many elements as leftHeap.
+  Args:
+    leftHeap: A max heap of numbers.
+    rightHeap: A min heap of numbers.
+    x: The next number to consider in the running median computation. 
+  Returns:
+    A tuple containing updated heaps and the new median.
+  */
   def runningMedianNext(leftHeap: PriorityQueue[Int], rightHeap: PriorityQueue[Int], x: Int): (PriorityQueue[Int], PriorityQueue[Int], Double) = {
-    /* This computes the next step in the running median computation. 
-    We assume three invariants:
-    1) The leftHeap's elements are all smaller than or equal to the rightHeap's,
-    2) The numbers of elements in the heaps differ by at most one. We call this "balanced".
-    3) rightHeap contains at least as many elements as leftHeap.
-    Args:
-      leftHeap: A max heap of numbers.
-      rightHeap: A min heap of numbers.
-      x: The next number to consider in the running median computation. 
-    Returns:
-      A tuple containing updated heaps and the new median.
-    */
-
     // Add the new element to the appropriate heap.
     if (rightHeap.length == 0 || x >= -rightHeap.head) {
       rightHeap.enqueue(-x)
@@ -47,13 +46,13 @@ object RunningMedian {
     (leftHeap, rightHeap, median)
   }
 
+  /* This takes in a stream of numbers and returns a stream which is the running median.
+  Args:
+    numbers: A stream of numbers.
+  Returns:
+    This returns a stream which is the running median.
+  */
   def runningMedian(numbers: Stream[Int]): Stream[Double] = {
-    /* This takes in a stream of numbers and returns a stream which is the running median.
-    Args:
-      numbers: A stream of numbers.
-    Returns:
-      This returns a stream which is the running median.
-    */
     val leftHeap = PriorityQueue.empty[Int]
     val rightHeap = PriorityQueue.empty[Int]
     val median: Double = 0
