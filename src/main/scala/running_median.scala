@@ -1,4 +1,4 @@
-/* This is a library for computing a running median. 
+/* This is an executable for computing a running median. 
 This code is based on this discussion:
 http://stackoverflow.com/questions/10657503/find-running-median-from-a-stream-of-integers
 It works by maintaining two heaps, one for the elements smaller than the median and one for
@@ -20,7 +20,7 @@ object RunningMedian {
       rightHeap: A min heap of numbers.
       x: The next number to consider in the running median computation. 
     Returns:
-      A list containing updated heaps and the new median.
+      A tuple containing updated heaps and the new median.
     */
 
     // Add the new element to the appropriate heap.
@@ -48,18 +48,18 @@ object RunningMedian {
   }
 
   def runningMedian(numbers: Stream[Int]): Stream[Double] = {
-    /* This takes in an iterator of numbers and returns an iterator which is the running median.
+    /* This takes in a stream of numbers and returns a stream which is the running median.
     Args:
-      numbers: An iterator of numbers.
+      numbers: A stream of numbers.
     Returns:
-      This returns an iterator which is the running median.
+      This returns a stream which is the running median.
     */
     val leftHeap = PriorityQueue.empty[Int]
     val rightHeap = PriorityQueue.empty[Int]
     val median: Double = 0
-    // map(x => x._3) is equivalent to map(_._3)
+    // Scan the stream numbers, find new median using runningMedianNext, get the 3rd element of the stream of tuples, and get rid
+    // of the first element of the stream (median: Double = 0)
     numbers.scanLeft(leftHeap, rightHeap, median)((medianTuple: (PriorityQueue[Int], PriorityQueue[Int], Double), x: Int) =>
       runningMedianNext(medianTuple._1, medianTuple._2, x)).map(_._3).tail
-
   }
 }

@@ -1,5 +1,5 @@
-/* Functions for processing tweets.
-This is nearly identical to code in the PySpark example library:
+/* This is an executable for counting words in Spark.
+This is nearly identical to code in the Spark example library:
 https://spark.apache.org/examples.html
 */
 

@@ -1,4 +1,4 @@
-/* Library and executable for computing a running median using Spark.
+/* Executable for computing a running median using Spark.
 */
 
 import org.apache.spark.SparkContext
@@ -7,14 +7,14 @@ import org.apache.spark.SparkConf
 import java.io._
 
 object SparkMedian {
+  /* Computes the running median of unique word counts in an input file simulating a tweet stream.
+  The computation is broken into two parts. The first is a parallel map which pre-processes the 
+  tweets. The second is a serial, streaming, running median.
+  Args:
+    inputPath: The path containing the tweets, with one tweet per line.
+    outputPath: The path where the running median should be written.
+  */
   def main(args: Array[String]) {
-    /* Computes the running median of unique word counts in an input file simulating a tweet stream.
-    The computation is broken into two parts. The first is a parallel map which pre-processes the 
-    tweets. The second is a serial, streaming, running median.
-    Args:
-      inputPath: The path containing the tweets, with one tweet per line.
-      outputPath: The path where the running median should be written.
-    */
 
     if (args.length != 2) {
       println("Usage is: median.scala <inputPath> <outputPath>")
