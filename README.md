@@ -7,14 +7,16 @@ This repository uses Spark to analyze tweets per the [Insight Coding Challenge](
 ## Running the code
 
 To install the dependencies, execute the following commands:
-*Install Spark:*
+
+*To install Spark:*
 
     wget http://d3kbcqa49mib13.cloudfront.net/spark-1.4.0-bin-hadoop2.6.tgz
     tar -xzf spark-1.4.0-bin-hadoop2.6.tgz
     mkdir ~/bin
     mv spark-1.4.0-bin-hadoop2.6 ~/bin/spark-1.4.0
 
-*Install sbt:*
+*To install sbt:*
+
 	echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
 	sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 642AC823
 	sudo apt-get update
