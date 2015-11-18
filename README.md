@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bsyouness/ScalaSparkInsight.svg)](https://travis-ci.org/bsyouness/ScalaSparkInsight)
+
 # Insight Data Engineering - Coding Challenge
 
 ## Introduction
