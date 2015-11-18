@@ -8,7 +8,7 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 import java.io._
 
-object WordCountApp {
+object WordCount {
   def main(args: Array[String]) {
     /* Computes a histogram of word occurences from a set of tweets.
 
