@@ -9,14 +9,12 @@ import org.apache.spark.SparkConf
 import java.io._
 
 object WordCount {
+  /* Computes a histogram of word occurences from a set of tweets.
+  Args: 
+    inputPath: the name of the file to read, 
+    output_path: the name of the file to output to.
+  */
   def main(args: Array[String]) {
-    /* Computes a histogram of word occurences from a set of tweets.
-
-    Args: 
-      inputPath: the name of the file to read, 
-      output_path: the name of the file to output to.
-    */
-
     if (args.length != 2) {
       println("Usage is: wordcount.scala <inputPath> <output_path>")
       exit(-1)
