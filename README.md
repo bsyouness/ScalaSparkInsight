@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This repository uses Spark to analyze tweets per the Insight Coding Challenge. 
+This repository uses Spark to analyze tweets per the *Insight Coding Challenge*. 
 
 ## Running the code
 
